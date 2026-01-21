@@ -33,13 +33,21 @@ Pre-trained models (no custom model training required)
 🗂️ Folder structure:
 
 chatbot/
+
 ├── backend/
+
 │   ├── app.py
+
 │   ├── chatbot_engine.py
+
 │   └── requirements.txt
+
 ├── frontend/
+
 │   └── index.html
+
 └── data/
+
     └── intents.json
 
 
