@@ -1,0 +1,238 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good evening",
+        "What's up",
+        "Hi bot",
+        "Hello support"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Welcome! I'm here to help. What do you need?",
+        "Hey! How may I support you today?"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks, bye",
+        "That's all, thanks"
+      ],
+      "responses": [
+        "Goodbye! Feel free to reach out anytime.",
+        "Thanks for chatting! Have a great day!",
+        "See you later! We're always here to help."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "billing",
+      "patterns": [
+        "billing issue",
+        "payment problem",
+        "charged twice",
+        "refund request",
+        "invoice question",
+        "payment not going through",
+        "wrong charge",
+        "subscription fee",
+        "billing error",
+        "payment failed"
+      ],
+      "responses": [
+        "I can help with billing issues. Could you provide your account email or order number?",
+        "I understand billing concerns can be frustrating. Let me look into this for you. What's your account email?",
+        "I'll assist with your billing inquiry. Please share your account details so I can investigate."
+      ],
+      "context": "billing"
+    },
+    {
+      "tag": "technical_support",
+      "patterns": [
+        "not working",
+        "error message",
+        "bug report",
+        "technical issue",
+        "system down",
+        "website crash",
+        "app not loading",
+        "can't access",
+        "login error",
+        "feature broken"
+      ],
+      "responses": [
+        "I'm sorry you're experiencing technical difficulties. Can you describe what's happening?",
+        "Let me help troubleshoot this issue. What error message are you seeing?",
+        "I'll assist with this technical problem. Please tell me more about what's not working."
+      ],
+      "context": "tech_support"
+    },
+    {
+      "tag": "account_support",
+      "patterns": [
+        "reset password",
+        "can't login",
+        "forgot password",
+        "account locked",
+        "username issue",
+        "change email",
+        "update account",
+        "verify account",
+        "account access",
+        "locked out",
+        "account deleted"
+      ],
+      "responses": [
+        "I can help you regain access to your account. What specific issue are you facing?",
+        "Let's get your account sorted. Are you having trouble logging in or resetting your password?",
+        "I'll assist with your account access. Can you tell me more about the problem?",
+        "If you deleted your account permenantly it can't be recovered"
+      ],
+      "context": "account"
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "where is my order",
+        "track shipment",
+        "delivery status",
+        "shipping time",
+        "when will it arrive",
+        "order tracking",
+        "package location",
+        "delivery delay",
+        "shipping info",
+        "not received order"
+      ],
+      "responses": [
+        "I can help track your order. Please provide your order number.",
+        "Let me check the shipping status for you. What's your order number?",
+        "I'll look into your delivery. Could you share your order number or tracking ID?"
+      ],
+      "context": "shipping"
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "product details",
+        "tell me about",
+        "product features",
+        "specifications",
+        "how does it work",
+        "product info",
+        "what is",
+        "explain product",
+        "product comparison",
+        "which product"
+      ],
+      "responses": [
+        "I'd be happy to provide product information. Which product are you interested in?",
+        "I can explain our products in detail. What would you like to know about?",
+        "Let me help you understand our offerings. Which product caught your attention?"
+      ],
+      "context": "product"
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "return policy",
+        "how to return",
+        "refund process",
+        "exchange product",
+        "return item",
+        "not satisfied",
+        "want refund",
+        "return window",
+        "return shipping",
+        "defective product"
+      ],
+      "responses": [
+        "I can assist with returns and refunds. What item would you like to return?",
+        "Our return policy allows returns within 30 days. What's the reason for the return?",
+        "I'll help you process a return. Can you tell me more about why you'd like to return the item?"
+      ],
+      "context": "returns"
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "business hours",
+        "when are you open",
+        "operating hours",
+        "what time do you close",
+        "open on weekends",
+        "holiday hours",
+        "support hours",
+        "available when"
+      ],
+      "responses": [
+        "Our customer support is available Monday-Friday, 9 AM to 6 PM EST. Is there anything I can help you with now?",
+        "We're here to help Monday through Friday, 9 AM to 6 PM EST. How can I assist you today?",
+        "Support hours are 9 AM to 6 PM EST on weekdays. I'm available now to help!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "how much",
+        "pricing",
+        "cost",
+        "price",
+        "subscription cost",
+        "plan pricing",
+        "fees",
+        "how much does it cost",
+        "price list",
+        "pricing plans"
+      ],
+      "responses": [
+        "I can provide pricing information. Which product or plan are you interested in?",
+        "Our pricing varies by plan. What specific product would you like to know about?",
+        "Let me help you understand our pricing. What are you looking to purchase?"
+      ],
+      "context": "pricing"
+    },
+    {
+      "tag": "account_support",
+      "patterns": [
+        "forgot password"
+      ],
+      "responses": [
+        "click on forgot password.it will ask to set a new password after your verification"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "account_support",
+      "patterns": [
+        "login account struggle"
+      ],
+      "responses": [
+        "please tell me in detail about the issue"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "shipping-issue",
+      "patterns": [
+        "tracking lost"
+      ],
+      "responses": [
+        "I can help you track down the order"
+      ],
+      "context": ""
+    }
+  ]
+}
